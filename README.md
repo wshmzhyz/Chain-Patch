@@ -1,6 +1,6 @@
 # Chain-Patch
 
-Chain-Patch 是一个基于Deepseek R1模型,采用链式思考（Chain-of-Thought, CoT）思想自动生成 Git 补丁的开源项目。该项目旨在通过多阶段候选生成和严格验证机制，自动修复真实 GitHub issues，提高代码修复的准确性和效率。
+Chain-Patch 是一个基于DeepSeek-R1模型,采用链式思考（Chain-of-Thought, CoT）思想自动生成 Git 补丁的开源项目。该项目旨在通过多阶段候选生成和严格验证机制，自动修复真实 GitHub issues，提高代码修复的准确性和效率。
 
 ## 项目背景
 
@@ -22,4 +22,8 @@ Chain-Patch 是一个基于Deepseek R1模型,采用链式思考（Chain-of-Thoug
 - **灵活扩展**  
   项目设计充分考虑模块化和可扩展性，支持集成多种 LLM 模型和验证策略，便于后续功能增强和参数调优。
 
+## 数据集
 
+数据来源:
+https://huggingface.co/datasets/nebius/SWE-agent-trajectories
+https://huggingface.co/datasets/nebius/SWE-bench-extra
