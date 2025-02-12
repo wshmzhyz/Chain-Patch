@@ -25,5 +25,5 @@ Chain-Patch 是一个基于DeepSeek-R1模型,采用链式思考（Chain-of-Thoug
 ## 数据集
 
 数据来源:
-https://huggingface.co/datasets/nebius/SWE-agent-trajectories
+https://huggingface.co/datasets/nebius/SWE-agent-trajectories/n
 https://huggingface.co/datasets/nebius/SWE-bench-extra
